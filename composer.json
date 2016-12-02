@@ -1,0 +1,13 @@
+{
+    "name": "user/mvc2",
+    "type": "project",
+    "require": {
+        "imagine/imagine": "^0.6.3"
+    },
+    "authors": [
+        {
+            "name": "Alexey Smolin",
+            "email": "ajikcey@mail.ru"
+        }
+    ]
+}

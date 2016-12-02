@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <!-- Recommended: 128 x 128 -->
+            <square70x70logo src="/images/small-tile.png"/>
+            <!-- Recommended: 270 x 270 -->
+            <square150x150logo src="/images/medium-tile.png"/>
+            <!-- Recommended: 558 x 270 -->
+            <wide310x150logo src="/images/wide-tile.png"/>
+            <!-- Recommended: 558 x 558-->
+            <square310x310logo src="/images/large-tile.png"/>
+            <TileColor>#009900</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
