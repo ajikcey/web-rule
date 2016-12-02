@@ -1,6 +1,9 @@
 # Composer files
 vendor/
 
+# Files
+files/
+
 # PhpStorm IDE
 .idea
 
