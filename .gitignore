@@ -1,5 +1,8 @@
 # Composer files
 vendor/
 
+# PhpStorm IDE
+.idea
+
 # Logs
 *.log
