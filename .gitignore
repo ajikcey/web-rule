@@ -8,4 +8,4 @@ files/
 .idea
 
 # Logs
-*.log
+log/
