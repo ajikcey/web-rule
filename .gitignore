@@ -1,0 +1,8 @@
+# Composer files
+vendor/
+
+# Logs
+*.log
+
+# Files
+files/
