@@ -1,0 +1,24 @@
+AddDefaultCharset UTF-8
+Options All -Indexes
+
+ErrorDocument 403 /site/page403
+ErrorDocument 404 /site/page404
+ErrorDocument 500 /site/page500
+
+<FilesMatch ".(htaccess|sql|log)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+RewriteRule \.svn/ - [F]
+RewriteRule \.idea/ - [F]
+RewriteRule ^plugins/elFinder/elfinder\.html - [F]
